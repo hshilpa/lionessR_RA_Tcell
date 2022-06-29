@@ -7,3 +7,5 @@ Single sample edgeweights of all gene-pairs are calculted using lionessR.
 The edgeweights are compared between untreated RA and healthy, and treated RA and untreated RA for each cell type.
 Edges with significantly different edgeweights are selected and annotated with GTRD transcription factor - target information.
 The selected edges are used to create networks with igraph and centralities are calculated.
+
+## RNA sequencing differential expression
