@@ -9,3 +9,4 @@ Edges with significantly different edgeweights are selected and annotated with G
 The selected edges are used to create networks with igraph and centralities are calculated.
 
 ## RNA sequencing differential expression
+The fastq files were aligned using STAR (v.2.7.7a)
