@@ -10,3 +10,7 @@ The selected edges are used to create networks with igraph and centralities are 
 
 ## RNA sequencing differential expression
 The fastq files were aligned using STAR (v.2.7.7a)
+A wrapper script in R was used : STAR_alignment_singleEnd_GSE118829.R
+
+Reads were counted using Rsubread (v2.4.3). The Rscript featureCounts_counting_GSE118829.R was used.
+
