@@ -39,3 +39,4 @@ The GTRD transcription factors are given in the table 2021_09_1_TFonly_annotatio
 Kegg metabolic pathways are given in the table 2021_09_03_metabolic_pathways.tsv
 
 The GTRD TF target annotation is from v19 of GTRD.
+The GeneHancer network edges and nodes are given in the files glygenes_TF_edgeAtt.csv and glygenes_TF_noa.csv respectively.
