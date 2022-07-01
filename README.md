@@ -29,6 +29,9 @@ Differentially expressed nodes were annotated in annotateNodes_with_DEGs_script3
 
 Centrality measures were calculated in getCentralities_for_eachgraph_script4.R (igraph 1.3.1)
 
+GeneHancer annotation of differentially co-expressed edges is done in lionessRGSE118829_GenehancerAnnot_script.R
+The comaprison of GTRD and GeneHancer binding sites is done in GSE118829_Genehancer_GTRD_sitecount_compare.R
+
 ## annot_tables
 The table GSE118829_sampleDetails.csv gives the details of the samples used in the analysis
 
