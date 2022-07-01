@@ -1,34 +1,6 @@
 #-------------------------------------------------------------------------------
-#---------------- TEMPLATE FOR STAR ALIGNEMNT SCRIPT ---------------------------
+#---------------- SCRIPT FOR STAR ALIGNEMNT SCRIPT ---------------------------
 #-------------------------------------------------------------------------------
-## Final Script for Mapping with STAR and hg38 version 2_0 2021/03/22
-
-####!!!!!!!!!!!!! DO NOT MODIFY !!!!!!!!!!!!!!####
-
-##------------------------------------------------------------------------------
-## CHANGES
-## 2021/03/22
-## edited for single end reads
-## previous version v_1_3 2021/03/11
-## 2021/03/11
-## edited path for tmp directory
-## reduced threads to 3
-## reduce threads further or adjust limitBAMsortRAM and outBAMsortingBinsN
-## these settings are hitting the ulimit -n for users.
-## discuss with Khan sir if adjustments also don't work.
-## also consider sorting with Rsamtools.
-## previous version v_1_2 2021/03/11
-## 2021/03/10
-## removed space from limitBAMsortRAM and outBAMsortingBinsN
-## added path for tmp directory
-## in STAR command creation, changed to paste0
-## previous version v_1_1 2021/03/10
-## 2021/03/10
-## Earlier version did not allocate enough memory to sort BAM
-## changed from default to --outBAMsortingBinsN 200 and 
-## --limitBAMsortRAM 48000000000
-## previous version 1_0 2021/03/04
-##------------------------------------------------------------------------------
 
 ## Alignment of reads and counting the aligned reads
 ## alignment using STAR and GRCh38 release 102 as reference
